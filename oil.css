@@ -1,0 +1,460 @@
+/* Oil Page CSS */
+
+/*Oil Showcase CSS*/
+.OilShowcase{
+  position: relative;
+  background-image:url('/images/LargeOilRig.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height:70vh ;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;  
+};
+
+.Eyebrow{
+  display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+}
+
+.ICRCSBDoubleWrapper{
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.ICRCSBTop{
+  background:#97D0F0;
+  height:50%;
+  display: flex;
+  align-items:center;
+  position:relative;
+  box-sizing: border-box;
+}
+
+.ICRCSBBottom{
+  background:#344971;
+  height:50%;
+  display: flex;
+  align-items:center;
+  position:relative;
+  box-sizing: border-box;
+}
+/*Oil Showcase End*/
+
+/*Info Thingy Start*/
+
+
+.InfoWrapper{
+  position:relative;
+  display:block;
+    }
+
+.Info1Container{
+  display:block;
+}
+
+.Container1Print{
+  align-items: normal;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: wrap;
+  justify-content: normal;
+  margin: 0 auto;
+  max-width: 1920px;
+    width: 100%;
+}
+
+.I1C2Column{
+  display: flex;
+  width:100%
+}
+
+/*Left Side Start*/
+.I1CLeftColumn{
+
+flex-grow: 1;
+width: 80%;
+height: 100%;
+flex-basis: 50%;
+}
+
+.I1CLCTextBoxColor{
+  background: #f1f2f2;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.I1CLCTextBoxText{
+margin-left: 14.28571%;
+padding-top: 80px;
+padding-bottom: 80px;
+padding: 0 22px;
+flex-grow: 1;
+max-width: 71.42857%;
+display: block;
+box-sizing: border-box;
+}
+
+.EyebrowThingy{
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #fe000c;
+  font-style: normal;
+  font-weight: 400;
+  font-size: .8125rem;
+  line-height: 1.25rem;
+  letter-spacing: .0625rem;
+  text-transform: uppercase;
+}
+
+.I1CLCTextBoxTitle{
+  line-height: 2.75rem;
+  font-size: 2.125rem;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: -.03125rem;
+  color: #333;
+  margin: 0;
+}
+
+.RichText{
+  display: block;
+  box-sizing: border-box;
+}
+
+.I1CLCTextBoxBodyP{
+  display: block;
+  margin-bottom: 20px;
+  color: #6d6e71;
+  font-style: normal;
+  font-weight: 300;
+  
+}
+/*Left Side End*/
+
+/*Right Side Start*/
+.I1CRightColumn{
+  box-sizing: border-box;
+  
+  display: block;
+}
+
+.I1CRCStatBoxDouble{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.I1CRCSBDoubleWrapper{
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+/*Top Part Start*/
+.I1CRCSBTop{
+background: #fe000c;
+height: 50%;
+display: flex;
+align-items: center;
+position: relative;
+box-sizing: border-box;
+}
+
+.I1CRCSBTContainer{
+align-items: normal;
+display: flex;
+flex: 0 1 auto;
+flex-flow: wrap;
+justify-content: normal;
+margin: 0 auto;
+width: 100%;
+box-sizing: border-box;
+}
+
+.I1CRCSBTContent{
+  padding: 0 22px;
+  margin-left: 14.28571%;
+  flex: 5 5 auto;
+  flex-grow: 1;
+    max-width: 71.42857%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.I1CRCSBTFeaturedText{
+  color: #fff;
+  line-height: 5rem;
+    font-size: 4.375rem;
+  letter-spacing: -.0625rem;
+    margin-bottom: 10px;
+    word-break: break-word;
+  font-style: normal;
+    font-weight: 300;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.I1CRCSBTLowerText{
+  color: #fff;
+  margin-bottom: 0;
+  display: block;
+    line-height: 1.75rem;
+  font-style: normal;
+    font-weight: 300;
+  font-size: 1rem;
+  box-sizing: border-box;  
+}
+/*Top Part End*/
+
+/*Bottom Part Start*/
+.I1CRCSBBottom{
+  background: #333;  
+  height: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+box-sizing: border-box;
+  
+}
+
+.I1CRCSBBContainer{
+align-items: normal;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: wrap;
+  justify-content: normal;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.I1CRSBBContent{
+  padding: 0 22px;
+  margin-left: 14.28571%;
+  flex: 5 5 auto;
+  flex-grow: 1;
+    max-width: 71.42857%;
+  display: block;
+  
+}
+
+.I1CRCSBBFeaturedText{
+  color: #fff;
+  line-height: 5rem;
+    font-size: 4.375rem;
+  letter-spacing: -.0625rem;
+    margin-bottom: 10px;
+    word-break: break-word;
+  font-style: normal;
+    font-weight: 300;
+  margin: 0;
+  display: block;
+}
+
+.I1CRSBBLowerText{
+  color: #fff;
+  margin-bottom: 0;
+  display: block;
+    line-height: 1.75rem;
+font-style: normal;
+    font-weight: 300;
+  font-size: 1rem;
+  box-sizing: border-box;
+background-repeat: no-repeat;
+}
+
+/*Bottom Part End*/
+
+/*Image Stuff Starts*/
+.Info2Container{
+      display: block;
+  box-sizing: border-box;
+
+}
+
+.Container2Print{
+  align-items: normal;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: wrap;
+justify-content: normal;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+.I2C1Column{
+  width: 100%;
+flex: 14 14 auto;
+  flex-grow: 1;
+    max-width: 100%;
+
+}
+
+.I2C1CMedias{
+    padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.I2C1CMContainer{
+  min-height: 720px;
+  align-items: normal;
+      display: flex;
+    flex: 0 1 auto;
+flex-flow: wrap;
+  justify-content: normal;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+.I2C1CMCContent{
+  margin-left: 7.14286%;
+  padding: 0 22px;
+flex: 12 12 auto;
+  flex-grow: 1;
+    max-width: 85.71429%;
+      align-self: center;
+display: block;
+}
+
+.I2C1MCWrapper{
+  padding: 80px 0;
+  border: 0;
+      display: block;
+
+}
+
+.I2C1MCImageWrapper{
+  margin-top: 30px;
+      box-sizing: border-box;
+    display: block;
+
+}
+
+.I2C1MCCaption{
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: block;
+color: #6d6e71;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+  font-style: normal;
+    font-weight: 300;
+
+}
+
+/*Image Stuff Ends*/
+
+/*Info Thingy Ends*/
+
+
+/*Footer Start*/
+
+.Footer{
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.FooterTop{
+  padding-top: 35px;
+    padding-bottom: 35px;
+  box-sizing: border-box;
+padding: 0 22px;
+  background-color: #333;
+  padding-top: 35px;
+    padding-bottom: 35px;
+  padding: 0 22px;
+  flex: 6 6 auto;
+  flex-grow: 1;
+    max-width: 100%;
+  display: block;
+}
+
+,FooterTopContainer{
+  justify-content: space-between;
+    padding: 0 23px;
+align-items: normal;
+display: flex;
+  flex: 0 1 auto;
+  margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.FooterLinks{
+  box-sizing: border-box;
+display: block;
+}
+
+.FooterList{
+  padding-bottom: 15px;
+  margin: 0;
+    padding: 0;
+    list-style-type: none;
+font-style: normal;
+    font-weight: 300;
+  box-sizing: border-box;
+}
+
+.FooterListItem{
+  padding-left: 0;
+  page-break-inside: avoid;
+    break-inside: avoid;
+float: left;
+    margin-right: 15px;
+  padding-bottom: 0!important;
+  line-height: 1.75rem;
+  box-sizing: border-box;
+}
+
+.FooterSocialMedias{
+  box-sizing: border-box;
+  display: block;
+}
+
+.NoListStyle{
+  list-style: none;
+    padding: 0;
+  font-style: normal;
+    font-weight: 300;
+  color: #333;
+    margin: 0;
+  box-sizing: border-box;
+}
+
+.FooterSocialLinks{
+ padding-bottom: 15px;
+  padding: 0;
+float: left;
+    margin-right: 20px;line-height: 1.75rem;
+box-sizing: border-box;
+
+}
+/*Footer End*/
+/* Oil Page CSS Eng */

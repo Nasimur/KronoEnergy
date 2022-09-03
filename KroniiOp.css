@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wow {
+  width: 100px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+
+/* The thing that split half */
+
+div.Bcontainer {
+  width: 100%;
+
+}
+
+div.box {
+  box-sizing: border-box;
+  width: 50%;  
+  float: left;
+}
+
+#box1{
+font-size: 18px;
+padding:20px;
+
+}
+
+#text1{
+    font-size: 22px;
+text-align: center;
+
+}
+
+#text2{
+    font-size: 22px;
+text-align: center;
+}
+
+#box2{
+    font-size: 18px;
+background-color:rgba(52, 73, 113, 1);
+padding: 20px;
+color:white;
+padding-bottom:50px;
+}
+
+/* The 3rd bottom */
+
+.bottomhalf{
+    background-color: rgba(244, 244, 244, 1);
+    
+}
+
+#textB{
+    font-size: 22px;
+    text-align: center;
+}
+
+#BodyT{
+    font-size: 18px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+footer{
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(52, 73, 113, 1);
+}
+

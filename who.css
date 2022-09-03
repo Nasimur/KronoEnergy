@@ -1,0 +1,281 @@
+/*Body Div Thing*/
+
+.CShowcase{
+  padding:5px 50px 50px 30px ;
+  background-image: url(/images/longoildock.jpg);
+  position:relative;
+  background-size:cover;
+  font-size: 30px;
+  min-height: 34.72222vw;
+  
+}
+
+.CShowcase h1{
+  color: white;
+  text-shadow:  -2px 0px 4px black, 0px -2px 4px black, 0px 2px 4px black, 2px 0px 2px black;
+  
+}
+
+.CSHeading h1{
+padding-left: 35px;
+  padding-top:100px;
+  margin-bottom: 20px;
+  letter-spacing: -.0625rem;
+    line-height: 4.375rem;
+    font-size: 3.75rem;
+  font-style: normal;
+    font-weight: 300;
+  text-align:flex-end;
+}
+
+.CSHPText{
+  color: white;
+font-style: normal;
+    font-weight: 300;
+  margin-bottom: 20px;
+font-size: 1rem;
+    line-height: 1.75rem;
+  margin: 0;
+  padding-left: 35px;
+padding-top:80px;
+  text-shadow:  -2px 0px 4px black, 0px -2px 4px black, 0px 2px 4px black, 2px 0px 2px black;
+}
+
+.CSImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.CJob{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+    padding: 35px 10px 35px 10px;
+}
+
+.CJText{
+  display: block;
+  
+}
+
+.CJText article{
+      max-width: calc(42.85714% + 44px);
+margin-left: 28.57143%;
+    padding: 80px 0;
+    left: -22px;
+    position: relative;
+}
+
+.CJText h3{
+  line-height: 2.75rem;
+  font-size: 2.125rem;
+  margin-bottom: 20px;
+font-style: normal;
+    font-weight: 300;
+    letter-spacing: -.03125rem;
+}
+
+.CJText p{
+    font-size: 22px;
+display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;font-style: normal;
+    font-weight: 300;
+  margin-bottom: 20px;
+}
+}
+
+.CJButton{
+  padding-left: 150px;
+}
+
+.CJActualButton{
+  color: #fff;
+    background-color: #000;
+
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    min-height: 5px;
+    padding: 15px 5px 15px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16px;
+    cursor: pointer;
+    background-image: none;
+    align-content: space-around;
+    word-break: keep-all;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.CJButtonText{
+  display: block;
+    pointer-events: none;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CWhyTexts{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2.75rem;
+    font-size: 2.125rem;
+  padding: 9% 0;
+  font-style: normal;
+    font-weight: 300;
+  text-align: center;
+    letter-spacing: -.03125rem;
+  background-color: #587FA3;
+}
+
+.CWhyHead{
+  padding-left: 100px;
+  font-size: 40px;
+}
+
+.CWhyInfo{
+  
+  display: block;
+  text-align:center;
+  margin-left: 21.42857%;
+  padding: 0 22px;
+  flex: 8 8 auto;
+  flex-grow: 1;
+    max-width: 57.14286%;
+  z-index: 2;
+}
+
+.CWhyPText{
+  padding-left: 100px;
+  font-size: 25px;
+  color:white
+}
+
+
+.CWhyInfoC1{
+  display: grid;
+  grid-row-gap:130px;
+  grid-column-gap: 50px;
+}
+
+
+.CWhyInfoC1R1{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.CWhyInfoC1R2{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.CWhyInfoC2{
+  display: grid;
+  grid-row-gap:130px;
+  grid-column-gap: 50px;
+}
+
+.CWhyInfoC2R1{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.CWhyInfoC2R2{
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.CWhyInfoColumns{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+
+}
+
+.CWhyInfoCBigNumber{
+  font-size: 55px;
+}
+
+.CWhyInfoCBigNumberDesc{
+  font-size: 25px;
+}
+
+
+.CJob2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    background-color:#8F9DC3;
+    align-content: stretch;
+    padding: 35px 0px 35px 0px;
+  
+}
+
+.CJText2{
+  display: block;
+  padding-left:50px;
+}
+
+.CJText2 p{
+    font-size: 22px;
+
+}
+
+.CJButton2{
+  padding-left: 150px;
+}
+
+.CJActualButton2{
+  color: black;
+    background-color: #d4c364;
+transform: translateY(50%)
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    min-height: 5px;
+    padding: 15px 5px 15px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16px;
+    cursor: pointer;
+    background-image: none;
+    align-content: space-around;
+    word-break: keep-all;
+    
+}
+
+.CJButtonText{
+  display: block;
+    pointer-events: none;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*Body Div End*/
